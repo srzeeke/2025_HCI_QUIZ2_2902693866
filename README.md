@@ -4,7 +4,7 @@
 This is a single-page responsive portfolio website created as part of a quiz 2 submission. The website showcases personal information such as a user's full name, username, email, and contact details. It is built using **HTML**, **CSS**, and **JS**.
 
 **URL Link to website portfolio:** [Click Here](https://github.com/srzeeke/2025_HCI_QUIZ2_2902693866)  
-**URL Link to website design (Figma/Canva):** [Click Here]([https://www.figma.com/design/arlMYMiPrHLNn47ZDnQCq8/Untitled?node-id=1-1470&t=QpNwMrL7pBCw86cO-1](https://www.figma.com/design/CXs1quJiFVEk6cOPTv6mZ6/HCI-final-project?node-id=0-1&p=f&t=jbBv54UqnSiyoMHe-0))
+**URL Link to website design (Figma/Canva):** https://www.figma.com/design/CXs1quJiFVEk6cOPTv6mZ6/HCI-final-project?node-id=0-1&p=f&t=jbBv54UqnSiyoMHe-0
 
 
 ## 🎯 Purpose
@@ -75,6 +75,7 @@ Profile/
 
 ## 📸 Screenshot on evaluation table.
 <img width="519" height="736" alt="image" src="https://github.com/user-attachments/assets/0cfecc73-1007-4911-b49c-8fa3afd5a405" />
+
 
 
 
