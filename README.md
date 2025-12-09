@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# 🌐 PROFILE WEBPAGE
 
 ## 📖 Project Overview
 This is a single-page responsive portfolio website created as part of a quiz 2 submission. The website showcases personal information such as a user's full name, username, email, and contact details. It is built using **HTML**, **CSS**, and **JS**.
@@ -75,5 +75,6 @@ Profile/
 
 ## 📸 Screenshot on evaluation table.
 <img width="519" height="736" alt="image" src="https://github.com/user-attachments/assets/0cfecc73-1007-4911-b49c-8fa3afd5a405" />
+
 
 
