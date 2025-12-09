@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Profile — ZFF</title>
+
+    <!-- Use Inter font for closer match -->
+    <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+    <div class="layout">
+    <!-- sidebar -->
+    <aside class="sidebar" role="navigation" aria-label="Main navigation">
+        <div class="brand">ZFF</div>
+        <nav class="menu">
+        <a href="#" class="menu-item">Dashboard</a>
+        <a href="#" class="menu-item">Inventory Item</a>
+        <a href="#" class="menu-item">Messages</a>
+        <a href="#" class="menu-item">Inventory Analytics</a>
+        <a href="#" class="menu-item active">Profile</a>
+        <a href="#" class="menu-item">Notifications</a>
+        <a href="#" class="menu-item logout" id="sidebarLogout">Log out</a>
+        </nav>
+    </aside>
+
+    <!-- main -->
+    <main class="main">
+        <!-- topbar -->
+        <header class="topbar">
+        <div class="top-left">
+            <button class="back" id="backBtn">← Back</button>
+            <h1 class="top-title">User Profile</h1>
+        </div>
+
+        <div class="top-right">
+            <div class="search-wrap">
+            <input class="search" placeholder="Search…">
+            </div>
+            <button class="btn ghost" id="changePhoto">Change Photo</button>
+            <div class="avatar">SB</div>
+        </div>
+        </header>
+
+        <!-- content -->
+        <section class="content">
+        <div class="content-inner">
+
+            <!-- Acc form card thingy -->
+            <div class="card form-card">
+            <div class="card-header">
+                <div class="card-title">Profile</div>
+                <div class="card-actions">
+                <button class="btn ghost small" id="cancelBtn">Cancel</button>
+                <button class="btn primary" id="saveBtn">Save</button>
+                </div>
+            </div>
+
+            <form id="profileForm" class="profile-form" autocomplete="off" novalidate>
+                <div class="field">
+                <label for="fullName">Full Name</label>
+                <input id="fullName" name="fullName" type="text" value="Sangat Bagus" />
+                </div>
+
+                <div class="field">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" value="Bagus" />
+                </div>
+
+                <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" value="bagusbanget@example.com" />
+                </div>
+
+                <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" value="+62 8555-1232-4567" />
+                </div>
+
+                <div class="field">
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio" rows="5">Tell us about yourself...</textarea>
+                </div>
+
+                <div class="form-footer">
+                <button type="button" class="btn danger" id="logoutBtn">Log Out</button>
+                <div class="save-note small">Changes are saved locally (demo)</div>
+                </div>
+            </form>
+            </div>
+    <script src="profile.js"></script>
+</body>
+</html>
